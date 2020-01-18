@@ -1,5 +1,6 @@
-<? include "../inc/head.html"; ?>
-{% include footer.html %}
+
+{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
+
 <style>
 #header h1 {
 	display: none;
