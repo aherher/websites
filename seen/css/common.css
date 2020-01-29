@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*본고딕*/
+/*
+@font-face{font-family:'Noto Sans';
+    font-style:normal;
+    font-weight:700;
+    src:url(font/NotoSansKR-Medium-Hestia.eot);
+    src:url(font/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+        url(font/NotoSansKR-Medium-Hestia.woff) format('woff'),
+        url(font/NotoSansKR-Medium-Hestia.otf) format('truetype')
+}
+
+
+@font-face{font-family:'Noto Sans';
+    font-style:normal;
+    font-weight:400;
+    src:url(font/NotoSansKR-DemiLight-Hestia.eot);
+    src:url(font/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+        url(font/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+        url(font/NotoSansKR-DemiLight-Hestia.otf) format('truetype');
+}
+ 
+@font-face {font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src:url(font/NotoSansKR-Light-Hestia.eot);
+    src:url(font/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+        url(font/NotoSansKR-Light-Hestia.woff) format('woff'),
+        url(font/NotoSansKR-Light-Hestia.otf) format('truetype');
+}
+
+@font-face{font-family:'Noto Sans';
+    font-style:normal;
+    font-weight:700;
+    src:url(font/NotoSans-Medium.eot);
+    src:url(font/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+        url(font/NotoSans-Medium.woff) format('woff'),
+        url(font/NotoSans-Medium.ttf) format('truetype')
+}
+
+
+@font-face{font-family:'Noto Sans';
+    font-style:normal;
+    font-weight:400;
+    src:url(font/NotoSans-DemiLight.eot);
+    src:url(font/NotoSans-DemiLight.eot?#iefix) format('embedded-opentype'),
+        url(font/NotoSans-DemiLight.woff) format('woff'),
+        url(font/NotoSans-DemiLight.ttf) format('truetype');
+}
+ 
+@font-face {font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src:url(font/NotoSans-Light.eot);
+    src:url(font/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+        url(font/NotoSans-Light.woff) format('woff'),
+        url(font/NotoSans-Light.ttf) format('truetype');
+}*/
+
+
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+body {font-size:16px;}
+body,hr,img,fieldset,form,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,q,blockquote,caption,legend,address,input,select,textarea,button{margin:0;padding:0}
+hr{display:none}
+img,input,button,textarea,fieldset,form,legend,hr{border:0 none}
+dl,ul,ol,li{list-style:none}
+body,h1,h2,h3,h4,h5,h6,big,small,input,select,textarea,button{font-size:1em;line-height:1.4em}
+q,blockquote{quotes:none}
+q:before,q:after{content:''}
+caption,legend{height:1px;overflow:hidden;margin:-1px 0 0 0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;font:0/0 serif}
+a{text-decoration:none}
+dfn,em,cite,address,sup,sub{font-style:normal;font-variant:normal;text-transform:none}
+button{outline:none;background-color:transparent;cursor:pointer}
+table,tr,td{margin:0;padding:0;border-width:0;border-collapse:collapse}
+img,input,select,textarea,button{vertical-align:middle}
+/*body,input,select,textarea,button{font-family: '나눔고딕', NanumGothic, 'Nanum Gothic', sans-serif; font-style:normal; word-break:keep-all; color:#333;}*/
+body,input,select,textarea,button{font-family:'본고딕', Noto Sans KR,'Noto Sans KR', sans-serif;}
+body,a{color:#222;letter-spacing:-1px}
+body{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;word-wrap:break-word;word-break:keep-all}
+a,input,button,select{outline:none}
+input[type="radio"],input[type="checkbox"],label{cursor:pointer}
+.trans{position:absolute !important;left:-9999px !important;top:-9999px !important;width:0px !important;height:0px !important;overflow:hidden}
+p {margin:0;}
+a:hover, a:focus, a:active {text-decoration:none;}
+

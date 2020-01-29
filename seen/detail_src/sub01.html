@@ -1,0 +1,1110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="euc-kr">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" /><![endif]-->
+<link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/base.css" />
+<link rel="stylesheet" type="text/css" href="../css/layout.css" />
+<title>SEEN - 여성신발 검색 쇼핑몰</title>
+</head>
+
+<body>
+<!-- 헤더 시작 -->
+<div class="header_wrap">
+  <div class="head center_box">
+    <h1><a href="../index.html"><img src="../images/common/logo.png" alt="seen"/></a></h1>
+    <span class="favheart"><a href="#!"><img src="../images/common/fav_head.png" alt="즐겨찾기"/></a></span> <span class="my_icon"><a href="#!"><img src="../images/common/my_icon.png" alt="마이페이지"/></a></span>
+    <div class="menu_btn"><img src="../images/common/menu_btn.png" alt="메뉴"/></div>
+  </div>
+  <!-- 메뉴시작 -->
+  <div class="menu_wrap">
+    <div class="menu_cover">
+      <div class="the_menus">
+        <div class="close_btn"><span>CLOSE</span><img src="../images/common/close_btn.png" alt="닫기버튼"/></div>
+        <div class="sbox left_sbox">
+          <form name="titl_frm" class="src_frm" method="post" action="/shop/product_list.php">
+            <input type="text" name="titWh" id="prod_src" placeholder="상품명 검색" />
+            <a href="../sub/sub01.html"><img class="msc_icon" src="../images/sub/scr_sub.png" alt="검색하기" /></a>
+          </form>
+        </div>
+        <ul class="menu">
+          <li><a href="../sub/sub01.html">최근본상품</a></li>
+          <li><a href="#!">배송조회</a></li>
+          <li><a href="#!">이벤트</a></li>
+          <li><a href="#!">후기</a></li>
+          <li><a href="#!">셀럽 초이스</a></li>
+          <li><a href="#!">실시간 가격비교</a></li>
+          <li><a href="#!">공지사항</a></li>
+          <li><a href="#!">회원게시판</a></li>
+        </ul>
+        <ul class="log_wrap">
+          <li><a href="#!">로그인</a></li>
+          <li><a href="#!">회원가입</a></li>
+          <li><a href="#!">장바구니</a></li>
+        </ul>
+      </div>
+      <div class="blck_bg"></div>
+    </div>
+  </div>
+  <!-- 메뉴 끝 -->
+</div>
+<!-- 헤더 끝 -->
+  <div class="sub_con descr_box">
+    <!-- 상세검색 -->
+    <div class="detail_sch">
+      <div class="de_sch_area">
+        <form class="shoes" id="shoe_frm" name="shoe_frm" action="/shop/product_list.php">
+          <!-- 신발종류 -->
+          <div class="dss_box">
+            <p class="ss_title">신발종류</p>
+            <ul class="shoes_list">
+              <li>
+                <input type="checkbox" name="shoWh01" id="shoe01" value="Y">
+                <label for="shoe01">플랫</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh02" id="shoe02" value="Y">
+                <label for="shoe02">힐</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh03" id="shoe03" value="Y">
+                <label for="shoe03">로퍼</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh04" id="shoe04" value="Y">
+                <label for="shoe04">슬립온</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh05" id="shoe05" value="Y">
+                <label for="shoe05">스니커즈</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh06" id="shoe06" value="Y">
+                <label for="shoe06">샌들</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh07" id="shoe07" value="Y">
+                <label for="shoe07">부츠</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh08" id="shoe08" value="Y">
+                <label for="shoe08">부티</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh09" id="shoe09" value="Y">
+                <label for="shoe09">워커</label>
+              </li>
+              <li>
+                <input type="checkbox" name="shoWh10" id="shoe10" value="Y">
+                <label for="shoe10">슬리퍼</label>
+              </li>
+            </ul>
+          </div>
+          <!-- 신발종류 끝 -->
+
+          <!-- 스타일 분류 -->
+          <div class="dss_box">
+            <p class="ss_title">스타일 분류</p>
+            <ul class="shoes_list sstyle">
+              <li>
+                <input type="checkbox" name="styWh01" id="style01" value="Y">
+                <label for="style01">블로퍼</label>
+              </li>
+              <li>
+                <input type="checkbox" name="styWh02" id="style02" value="Y">
+                <label for="style02">슬링백</label>
+              </li>
+              <li>
+                <input type="checkbox" name="styWh03" id="style03" value="Y">
+                <label for="style03">메리제인</label>
+              </li>
+              <li>
+                <input type="checkbox" name="styWh04" id="style04" value="Y">
+                <label for="style04">앵클스트랩</label>
+              </li>
+            </ul>
+          </div>
+          <!-- 스타일 분류 끝 -->
+
+          <div class="dss_box">
+            <!-- 굽높이 -->
+            <div class="sSel_box left_ssbox">
+              <p class="ss_title">굽높이</p>
+              <div class="select_wrap"> <span>
+                </span>
+                <select class="src_sel" id="min_height" name="minhiWh">
+                  <option value="전체">전체</option>
+                  <option value="0.5cm">0.5cm</option>
+                  <option value="1cm">1cm</option>
+                  <option value="1.5cm">1.5cm</option>
+                  <option value="2cm">2cm</option>
+                  <option value="2.5cm">2.5cm</option>
+                  <option value="3cm">3cm</option>
+                  <option value="3.5cm">3.5cm</option>
+                  <option value="4cm">4cm</option>
+                  <option value="4.5cm">4.5cm</option>
+                  <option value="5cm">5cm</option>
+                  <option value="5.5cm">5.5cm</option>
+                  <option value="6cm">6cm</option>
+                  <option value="6.5cm">6.5cm</option>
+                  <option value="7cm">7cm</option>
+                  <option value="7.5cm">7.5cm</option>
+                  <option value="8cm">8cm</option>
+                  <option value="8.5cm">8.5cm</option>
+                  <option value="9cm">9cm</option>
+                  <option value="9.5cm">9.5cm</option>
+                  <option value="10cm">10cm</option>
+                  <option value="10.5cm">10.5cm</option>
+                  <option value="11cm">11cm</option>
+                  <option value="12cm">12cm</option>
+                  <option value="12.5cm">12.5cm</option>
+                  <option value="13cm">13cm</option>
+                  <option value="14.5cm">14.5cm</option>
+                  <option value="15cm">15cm</option>
+                </select>
+              </div>
+              <span class="gaped">~</span>
+              <div class="select_wrap"> <span>
+                </span>
+                <select class="src_sel" id="max_height" name="maxhiWh">
+                  <option value="전체">전체</option>
+                  <option value="0.5cm">0.5cm</option>
+                  <option value="1cm">1cm</option>
+                  <option value="1.5cm">1.5cm</option>
+                  <option value="2cm">2cm</option>
+                  <option value="2.5cm">2.5cm</option>
+                  <option value="3cm">3cm</option>
+                  <option value="3.5cm">3.5cm</option>
+                  <option value="4cm">4cm</option>
+                  <option value="4.5cm">4.5cm</option>
+                  <option value="5cm">5cm</option>
+                  <option value="5.5cm">5.5cm</option>
+                  <option value="6cm">6cm</option>
+                  <option value="6.5cm">6.5cm</option>
+                  <option value="7cm">7cm</option>
+                  <option value="7.5cm">7.5cm</option>
+                  <option value="8cm">8cm</option>
+                  <option value="8.5cm">8.5cm</option>
+                  <option value="9cm">9cm</option>
+                  <option value="9.5cm">9.5cm</option>
+                  <option value="10cm">10cm</option>
+                  <option value="10.5cm">10.5cm</option>
+                  <option value="11cm">11cm</option>
+                  <option value="12cm">12cm</option>
+                  <option value="12.5cm">12.5cm</option>
+                  <option value="13cm">13cm</option>
+                  <option value="14.5cm">14.5cm</option>
+                  <option value="15cm">15cm</option>
+                </select>
+              </div>
+            </div>
+            <!-- 굽높이 끝 -->
+            <!-- 사이즈 -->
+            <div class="sSel_box">
+              <p class="ss_title">사이즈</p>
+              <div class="select_wrap"> <span>
+                </span>
+                <select class="src_sel" id="min_height" name="minszWh">
+                  <option value="">전체</option>
+                  <option value="1">220mm</option>
+                  <option value="2">225mm</option>
+                  <option value="3">230mm</option>
+                  <option value="4">235mm</option>
+                  <option value="5">240mm</option>
+                  <option value="6">245mm</option>
+                  <option value="7">250mm</option>
+                  <option value="8">255mm</option>
+                </select>
+              </div>
+              <span class="gaped">~</span>
+              <div class="select_wrap"> <span>
+                </span>
+                <select class="src_sel" id="min_height" name="maxszWh">
+                  <option value="전체">전체</option>
+                  <option value="220mm">220mm</option>
+                  <option value="225mm">225mm</option>
+                  <option value="230mm">230mm</option>
+                  <option value="235mm">235mm</option>
+                  <option value="240mm">240mm</option>
+                  <option value="245mm">245mm</option>
+                  <option value="250mm">250mm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- 사이즈 끝 -->
+          <!-- 소재 -->
+          <div class="dss_box">
+            <p class="ss_title">소재</p>
+            <ul class="shoes_list meterial">
+              <li>
+                <input type="checkbox" id="mete01">
+                <label for="mete01">합성피혁</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete02">
+                <label for="mete02">천연가죽</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete03">
+                <label for="mete03">에나멜</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete04">
+                <label for="mete04">페브릭메쉬</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete05">
+                <label for="mete05">스웨이드</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete06">
+                <label for="mete06">벨벳</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete07">
+                <label for="mete07">송지</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete08">
+                <label for="mete08">합성섬유</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete09">
+                <label for="mete09">털</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete10">
+                <label for="mete10">데님</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete11">
+                <label for="mete11">니트</label>
+              </li>
+              <li>
+                <input type="checkbox" id="mete12">
+                <label for="mete12">기타</label>
+              </li>
+            </ul>
+          </div>
+          <!--  소재 끝 -->
+          <!-- 색상 -->
+          <div class="dss_box">
+            <p class="ss_title">색상</p>
+            <div class="drop_wrap">
+              <p>색상 선택</p>
+            </div>
+            <ul class="shoes_color drop_con">
+              <li>
+                <input type="checkbox" name="colrWh01" id="color01" value="Y">
+                <label for="color01">
+                  <p>블랙</p>
+                  <span style="background-color:#000000;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh02" id="color02" value="Y">
+                <label for="color02">
+                  <p>다크그레이</p>
+                  <span style="background-color:#616161;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh03" id="color03" value="Y">
+                <label for="color03">
+                  <p>그레이</p>
+                  <span style="background-color:#999999;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh04" id="color04" value="Y">
+                <label for="color04">
+                  <p>라이트그레이</p>
+                  <span style="background-color:#d6d6d6;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh05" id="color05" value="Y">
+                <label for="color05">
+                  <p>실버</p>
+                  <span style="background-color:#c7c7c7;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh06" id="color06" value="Y">
+                <label for="color06">
+                  <p>화이트</p>
+                  <span style="background-color:#ffffff; border:1px solid #ddd;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh07" id="color07" value="Y">
+                <label for="color07">
+                  <p>라이트핑크</p>
+                  <span style="background-color:#ffbacc;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh08" id="color08" value="Y">
+                <label for="color08">
+                  <p>핑크</p>
+                  <span style="background-color:#ff82a8;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh09" id="color09" value="Y" 9>
+                <label for="color09">
+                  <p>핫핑크</p>
+                  <span style="background-color:#f53e76;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh10" id="color10" value="Y">
+                <label for="color10">
+                  <p>레드</p>
+                  <span style="background-color:#ff0000;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh11" id="color11" value="Y" 1>
+                <label for="color11">
+                  <p>와인</p>
+                  <span style="background-color:#ab0322;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh12" id="color12" value="Y">
+                <label for="color12">
+                  <p>코코아</p>
+                  <span style="background-color:#5a3313;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh13" id="color13" value="Y">
+                <label for="color13">
+                  <p>다크브라운</p>
+                  <span style="background-color:#562600;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh14" id="color14" value="Y">
+                <label for="color14">
+                  <p>브라운</p>
+                  <span style="background-color:#924100;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh15" id="color15" value="Y">
+                <label for="color15">
+                  <p>라이트브라운</p>
+                  <span style="background-color:#ce742c;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh16" id="color16" value="Y">
+                <label for="color16">
+                  <p>모카</p>
+                  <span style="background-color:#a87042;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh17" id="color17" value="Y">
+                <label for="color17">
+                  <p>카멜</p>
+                  <span style="background-color:#c2850f;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh18" id="color18" value="Y">
+                <label for="color18">
+                  <p>브론즈</p>
+                  <span style="background-color:#c6975a;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh19" id="color19" value="Y">
+                <label for="color19">
+                  <p>귤색(tan)</p>
+                  <span style="background-color:#f28500;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh20" id="color20" value="Y">
+                <label for="color20">
+                  <p>오렌지</p>
+                  <span style="background-color:#ff7200;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh21" id="color21" value="Y">
+                <label for="color21">
+                  <p>머스타드</p>
+                  <span style="background-color:#ebc531;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh22" id="color22" value="Y">
+                <label for="color22">
+                  <p>골드</p>
+                  <span style="background-color:#ffcb00;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh23" id="color23" value="Y">
+                <label for="color23">
+                  <p>옐로우</p>
+                  <span style="background-color:#ffea00;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh24" id="color24" value="Y">
+                <label for="color24">
+                  <p>다크베이지</p>
+                  <span style="background-color:#c2a557;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh25" id="color25" value="Y">
+                <label for="color25">
+                  <p>베이지</p>
+                  <span style="background-color:#f0e8c4;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh26" id="color26" value="Y">
+                <label for="color26">
+                  <p>라이트베이지</p>
+                  <span style="background-color:#eee2ca;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh27" id="color27" value="Y">
+                <label for="color27">
+                  <p>아이보리</p>
+                  <span style="background-color:#f0e8d8;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh28" id="color28" value="Y">
+                <label for="color28">
+                  <p>레몬</p>
+                  <span style="background-color:#fffd61;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh29" id="color29" value="Y">
+                <label for="color29">
+                  <p>라임</p>
+                  <span style="background-color:#caff57;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh30" id="color30" value="Y">
+                <label for="color30">
+                  <p>카키</p>
+                  <span style="background-color:#5d750a;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh31" id="color31" value="Y">
+                <label for="color31">
+                  <p>그린</p>
+                  <span style="background-color:#0db100;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh32" id="color32" value="Y">
+                <label for="color32">
+                  <p>민트</p>
+                  <span style="background-color:#3fffa7;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh33" id="color33" value="Y">
+                <label for="color33">
+                  <p>하늘색</p>
+                  <span style="background-color:#00fff0;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh34" id="color34" value="Y">
+                <label for="color34">
+                  <p>소라</p>
+                  <span style="background-color:#36d2ff;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh35" id="color35" value="Y">
+                <label for="color35">
+                  <p>청록</p>
+                  <span style="background-color:#03726b;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh36" id="color36" value="Y">
+                <label for="color36">
+                  <p>블루</p>
+                  <span style="background-color:#000cff;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh37" id="color37" value="Y">
+                <label for="color37">
+                  <p>네이비</p>
+                  <span style="background-color:#00056a;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh38" id="color38" value="Y">
+                <label for="color38">
+                  <p>퍼플</p>
+                  <span style="background-color:#531886;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh39" id="color39" value="Y">
+                <label for="color39">
+                  <p>줄무늬</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh40" id="color40" value="Y">
+                <label for="color40">
+                  <p>땡땡이</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh41" id="color41" value="Y">
+                <label for="color41">
+                  <p>꽃무늬</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh42" id="color42" value="Y">
+                <label for="color42">
+                  <p>뱀피</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh43" id="color43" value="Y">
+                <label for="color43">
+                  <p>악어</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh44" id="color44" value="Y">
+                <label for="color44">
+                  <p>레오파드</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh45" id="color45" value="Y">
+                <label for="color45">
+                  <p>호피</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh46" id="color46" value="Y">
+                <label for="color46">
+                  <p>얼룩말</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh47" id="color47" value="Y">
+                <label for="color47">
+                  <p>캐릭터</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh48" id="color48" value="Y">
+                <label for="color48">
+                  <p>혼합</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh50" id="color50" value="Y">
+                <label for="color50">
+                  <p>격자(체크)</p>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="colrWh49" id="color49" value="Y">
+                <label for="color49">
+                  <p>기타</p>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <!-- 색상 끝 -->
+          <!-- 끈형식 -->
+          <div class="dss_box">
+            <p class="ss_title">끈형식</p>
+            <ul class="shoes_string image_inputs">
+              <li>
+                <input type="checkbox" name="stoWh06" id="string06" value="Y">
+                <label for="string06"></label>
+                <p>없음</p>
+              </li>
+              <li>
+                <input type="checkbox" name="stoWh01" id="string01" value="Y">
+                <label for="string01"></label>
+                <p>끈</p>
+              </li>
+              <li>
+                <input type="checkbox" name="stoWh02" id="string02" value="Y">
+                <label for="string02"></label>
+                <p>밴딩</p>
+              </li>
+              <li>
+                <input type="checkbox" name="stoWh03" id="string03" value="Y">
+                <label for="string03"></label>
+                <p>벨크로</p>
+              </li>
+              <li>
+                <input type="checkbox" name="stoWh04" id="string04" value="Y">
+                <label for="string04"></label>
+                <p>벨트</p>
+              </li>
+              <li>
+                <input type="checkbox" name="stoWh05" id="string05" value="Y">
+                <label for="string05"></label>
+                <p>지퍼</p>
+              </li>
+              <!--<li>
+              <input type="checkbox" name="stoWh06" id="string06" value="Y"6>
+              <label for="string06"></label>
+              <p>버튼</p>
+            </li>-->
+              <li>
+                <input type="checkbox" name="stoWh07" id="string07" value="Y">
+                <label for="string07"></label>
+                <p>기타</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 끈형식 끝 -->
+
+          <!-- 굽종류 -->
+          <div class="dss_box">
+            <p class="ss_title">굽종류</p>
+            <ul class="shoes_string image_inputs sblist">
+              <li>
+                <input type="checkbox" name="gubWh01" id="htype01" value="Y" <?if($gubWh01>
+                <label for="htype01">
+                  <div class="bordilne"></div>
+                </label>
+                <p>플랫</p>
+              </li>
+              <li>
+                <input type="checkbox" name="gubWh04" id="htype04" value="Y" <?if($gubWh04>
+                <label for="htype04">
+                  <div class="bordilne"></div>
+                </label>
+                <p>뾰족뒷굽</p>
+              </li>
+              <li>
+                <input type="checkbox" name="gubWh03" id="htype03" value="Y" <?if($gubWh03>
+                <label for="htype03">
+                  <div class="bordilne"></div>
+                </label>
+                <p>굵은뒷굽</p>
+              </li>
+              <li>
+                <input type="checkbox" name="gubWh02" id="htype02" value="Y" <?if($gubWh02>
+                <label for="htype02">
+                  <div class="bordilne"></div>
+                </label>
+                <p>가보시</p>
+              </li>
+              <li>
+                <input type="checkbox" name="gubWh05" id="htype05" value="Y" <?if($gubWh05>
+                <label for="htype05">
+                  <div class="bordilne"></div>
+                </label>
+                <p>웨지</p>
+              </li>
+              <li>
+                <input type="checkbox" name="gubWh06" id="htype06" value="Y" <?if($gubWh06>
+                <label for="htype06">
+                  <div class="bordilne"></div>
+                </label>
+                <p>통굽</p>
+              </li>
+              <li>
+                <input type="checkbox" name="gubWh07" id="htype07" value="Y" <?if($gubWh07>
+                <label for="htype07">
+                  <div class="bordilne"></div>
+                </label>
+                <p>속굽</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 굽종류 끝 -->
+
+          <!-- 굽특징 -->
+          <div class="dss_box">
+            <p class="ss_title">굽특징</p>
+            <ul class="shoes_string image_inputs">
+              <li>
+                <input type="checkbox" name="spaWh01" id="hfeature01" value="Y" <?if($spaWh01>
+                <label for="hfeature01"></label>
+                <p>에스파듀</p>
+              </li>
+              <li>
+                <input type="checkbox" name="spaWh02" id="hfeature02" value="Y" <?if($spaWh02>
+                <label for="hfeature02"></label>
+                <p>나무</p>
+              </li>
+              <li>
+                <input type="checkbox" name="spaWh03" id="hfeature03" value="Y" <?if($spaWh03>
+                <label for="hfeature03"></label>
+                <p>골드</p>
+              </li>
+              <li>
+                <input type="checkbox" name="spaWh04" id="hfeature04" value="Y" <?if($spaWh04>
+                <label for="hfeature04"></label>
+                <p>실버</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 굽특징 끝 -->
+
+          <!-- 앞코형태 -->
+          <div class="dss_box">
+            <p class="ss_title">앞코형태</p>
+            <ul class="shoes_string image_inputs">
+              <li>
+                <input type="checkbox" name="frnWh01" id="frshape01" value="Y" <?if($frnWh01>
+                <label for="frshape01"></label>
+                <p>포인트토</p>
+              </li>
+              <li>
+                <input type="checkbox" name="frnWh02" id="frshape02" value="Y" <?if($frnWh02>
+                <label for="frshape02"></label>
+                <p>라운드토</p>
+              </li>
+              <li>
+                <input type="checkbox" name="frnWh03" id="frshape03" value="Y" <?if($frnWh03>
+                <label for="frshape03"></label>
+                <p>스퀘어토</p>
+              </li>
+              <li>
+                <input type="checkbox" name="frnWh04" id="frshape04" value="Y" <?if($frnWh04>
+                <label for="frshape04"></label>
+                <p>토오픈</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 앞코형태 끝 -->
+
+
+          <!-- 장식 -->
+          <div class="dss_box">
+            <p class="ss_title">장식</p>
+            <div class="drop_wrap">장식 선택</div>
+            <ul class="shoes_string image_inputs drop_con sdeco_wrap">
+              <li>
+                <input type="checkbox" name="sdeWh01" id="sdeco01" value="Y" <?if($sdeWh01>
+                <label for="sdeco01"></label>
+                <p>장식없음</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh02" id="sdeco02" value="Y" <?if($sdeWh02>
+                <label for="sdeco02"></label>
+                <p>리본</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh34" id="sdeco34" value="Y" <?if($sdeWh34>
+                <label for="sdeco34"></label>
+                <p>큐빅</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh03" id="sdeco03" value="Y" <?if($sdeWh03>
+                <label for="sdeco03"></label>
+                <p>진주</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh04" id="sdeco04" value="Y" <?if($sdeWh04>
+                <label for="sdeco04"></label>
+                <p>벨트</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh05" id="sdeco05" value="Y" <?if($sdeWh05>
+                <label for="sdeco05"></label>
+                <p>태슬</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh06" id="sdeco06" value="Y" <?if($sdeWh06>
+                <label for="sdeco06"></label>
+                <p>스터드</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh07" id="sdeco07" value="Y" <?if($sdeWh07>
+                <label for="sdeco07"></label>
+                <p>홀스빗</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh08" id="sdeco08" value="Y" <?if($sdeWh08>
+                <label for="sdeco08"></label>
+                <p>꽃</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh09" id="sdeco09" value="Y" <?if($sdeWh09>
+                <label for="sdeco09"></label>
+                <p>별모양</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh10" id="sdeco10" value="Y" <?if($sdeWh10>
+                <label for="sdeco10"></label>
+                <p>원형</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh11" id="sdeco11" value="Y" <?if($sdeWh11>
+                <label for="sdeco11"></label>
+                <p>원형링</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh12" id="sdeco12" value="Y" <?if($sdeWh12>
+                <label for="sdeco12"></label>
+                <p>사각형</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh13" id="sdeco13" value="Y" <?if($sdeWh13>
+                <label for="sdeco13"></label>
+                <p>사각링</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh14" id="sdeco14" value="Y" <?if($sdeWh14>
+                <label for="sdeco14"></label>
+                <p>삼각형</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh15" id="sdeco15" value="Y" <?if($sdeWh15>
+                <label for="sdeco15"></label>
+                <p>삼각링</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh16" id="sdeco16" value="Y" <?if($sdeWh16>
+                <label for="sdeco16"></label>
+                <p>다각형</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh17" id="sdeco17" value="Y" <?if($sdeWh17>
+                <label for="sdeco17"></label>
+                <p>다각링</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh18" id="sdeco18" value="Y" <?if($sdeWh18>
+                <label for="sdeco18"></label>
+                <p>하트</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh19" id="sdeco19" value="Y" <?if($sdeWh19>
+                <label for="sdeco19"></label>
+                <p>방울</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh20" id="sdeco20" value="Y" <?if($sdeWh20>
+                <label for="sdeco20"></label>
+                <p>체인</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh21" id="sdeco21" value="Y" <?if($sdeWh21>
+                <label for="sdeco21"></label>
+                <p>메탈</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh22" id="sdeco22" value="Y" <?if($sdeWh22>
+                <label for="sdeco22"></label>
+                <p>골드</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh23" id="sdeco23" value="Y" <?if($sdeWh23>
+                <label for="sdeco23"></label>
+                <p>실버</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh24" id="sdeco24" value="Y" <?if($sdeWh24>
+                <label for="sdeco24"></label>
+                <p>자수</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh25" id="sdeco25" value="Y" <?if($sdeWh25>
+                <label for="sdeco25"></label>
+                <p>퍼</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh26" id="sdeco26" value="Y" <?if($sdeWh26>
+                <label for="sdeco26"></label>
+                <p>지퍼</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh27" id="sdeco27" value="Y" <?if($sdeWh27>
+                <label for="sdeco27"></label>
+                <p>단추</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh28" id="sdeco28" value="Y" <?if($sdeWh28>
+                <label for="sdeco28"></label>
+                <p>꽈배기</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh29" id="sdeco29" value="Y" <?if($sdeWh29>
+                <label for="sdeco29"></label>
+                <p>주름</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh30" id="sdeco30" value="Y" <?if($sdeWh30>
+                <label for="sdeco30"></label>
+                <p>스카프</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh31" id="sdeco31" value="Y" <?if($sdeWh31>
+                <label for="sdeco31"></label>
+                <p> 스팽글</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh32" id="sdeco32" value="Y" <?if($sdeWh32>
+                <label for="sdeco32"></label>
+                <p>글리터</p>
+              </li>
+              <li>
+                <input type="checkbox" name="sdeWh33" id="sdeco33" value="Y" <?if($sdeWh33>
+                <label for="sdeco33"></label>
+                <p> 기타</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 장식 끝 -->
+
+
+          <!-- 바닥 색상 -->
+          <div class="dss_box">
+            <p class="ss_title">바닥 색상</p>
+            <div class="drop_wrap">
+              <p>바닥 색상 선택</p>
+            </div>
+            <ul class="shoes_color drop_con">
+              <li>
+                <input type="checkbox" name="bottWh01" id="bott_color01" value="Y" <?if($bottWh01>
+                <label for="bott_color01">
+                  <p>블랙</p>
+                  <span style="background-color:#000000;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh02" id="bott_color02" value="Y" <?if($bottWh02>
+                <label for="bott_color02">
+                  <p>베이지</p>
+                  <span style="background-color:#f0e8c4;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh03" id="bott_color03" value="Y" <?if($bottWh03>
+                <label for="bott_color03">
+                  <p>화이트</p>
+                  <span style="background-color:#ffffff; border:1px solid #ddd;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh04" id="bott_color04" value="Y" <?if($bottWh04>
+                <label for="bott_color04">
+                  <p>다크그레이</p>
+                  <span style="background-color:#616161;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh05" id="bott_color05" value="Y" <?if($bottWh05>
+                <label for="bott_color05">
+                  <p>브라운</p>
+                  <span style="background-color:#924100;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh06" id="bott_color06" value="Y" <?if($bottWh06>
+                <label for="bott_color06">
+                  <p>다크브라운</p>
+                  <span style="background-color:#562600;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh07" id="bott_color07" value="Y" <?if($bottWh07>
+                <label for="bott_color07">
+                  <p>핑크</p>
+                  <span style="background-color:#ff82a8;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh08" id="bott_color08" value="Y" <?if($bottWh08>
+                <label for="bott_color08">
+                  <p>레드</p>
+                  <span style="background-color:#ff0000;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh09" id="bott_color09" value="Y" <?if($bottWh10>
+                <label for="bott_color09">
+                  <p>카키</p>
+                  <span style="background-color:#5d750a;"></span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh10" id="bott_color10" value="Y" <?if($bottWh10>
+                <label for="bott_color10">
+                  <p>혼합</p>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <input type="checkbox" name="bottWh11" id="bott_color11" value="Y" <?if($bottWh11>
+                <label for="bott_color11">
+                  <p>기타</p>
+                  </span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <!-- 바닥 색상 끝 -->
+          <!-- 가격대 -->
+          <div class="dss_box">
+            <p class="ss_title">가격대</p>
+            <input type="text" placeholder="직접입력" name="mstWh" class="dir_txt" maxlength=7 />
+            <span class="gaped">~</span>
+            <input type="text" placeholder="직접입력" name="pedWh" class="dir_txt" maxlength=7 />
+          </div>
+          <!-- 가격대 끝-->
+          <a class="submit" href="../sub/sub01.html">검색하기</a>
+        </form>
+        <!-- <a class="how_src how_src2" href="/HyAdmin/view.php?&amp;bbs_id=bo09&amp;page=&amp;doc_num=1"><img src="../images/common/how_icon.png" alt=""></a> -->
+        <div class="backto"><a class="back" href=""></a></div>
+      </div>
+    </div>
+    <!-- 상세검색 -->
+  </div>
+  <!-- 푸터 -->
+  <br><br><br><br>
+  <div class="footer_wrap">
+    <div class="footer center_box"><span>상호 : 아이브 </span><span>대표자 : 전국진</span><span>주소 : 부산광역시 남구 용소로 14번길 23, 7층 705호(대연동)</span> <span>사업자번호 : 894-13-00730</span><span>통신판매업신고번호 : 제 2015-부산남구-0151 호</span> <span>TEL :
+        010-5829-7229</span><span>E-MAIL : alivejkj@naver.com</span><span>개인정보관리책임자: 김현우(inu4j.khw@gmail.com)</span>
+      <p>Copyright ⓒ 2018 ive. All Rights Reserved</p>
+    </div>
+  </div>
+  <!-- 푸터 끝 -->
+  <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../js/layout.js"></script>
+</body>
+
+</html>
+<script>
+  $(".src_sel").change(function() {
+    var the_val = $(this).find("option:selected").text();
+    $(this).parent(".select_wrap").find("span").text(the_val);
+  });
+  $('a.back').click(function() {
+    parent.history.back();
+    return false;
+  });
+</script>
