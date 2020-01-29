@@ -1,89 +1,94 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="euc-kr">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" /><![endif]-->
 <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="../css/common.css" />
 <link rel="stylesheet" type="text/css" href="../css/base.css" />
 <link rel="stylesheet" type="text/css" href="../css/layout.css" />
-<title>SEEN - �����Ź� �˻� ���θ�</title>
+<style type="text/css">
+body,td,th {
+	font-family: "나눔고딕", NanumGothic, "Nanum Gothic", sans-serif;
+}
+</style>
+<title>SEEN - 여성신발 검색 쇼핑몰</title>
 </head>
 
 <body>
-<!-- ��� ���� -->
+<!-- 헤더 시작 -->
 <div class="header_wrap">
   <div class="head center_box">
     <h1><a href="../index.html"><img src="../images/common/logo.png" alt="seen"/></a></h1>
-    <span class="favheart"><a href="#!"><img src="../images/common/fav_head.png" alt="���ã��"/></a></span> <span class="my_icon"><a href="#!"><img src="../images/common/my_icon.png" alt="����������"/></a></span>
-    <div class="menu_btn"><img src="../images/common/menu_btn.png" alt="�޴�"/></div>
+    <span class="favheart"><a href="#!"><img src="../images/common/fav_head.png" alt="즐겨찾기"/></a></span> <span class="my_icon"><a href="#!"><img src="../images/common/my_icon.png" alt="마이페이지"/></a></span>
+    <div class="menu_btn"><img src="../images/common/menu_btn.png" alt="메뉴"/></div>
   </div>
-  <!-- �޴����� -->
+  <!-- 메뉴시작 -->
   <div class="menu_wrap">
     <div class="menu_cover">
       <div class="the_menus">
-        <div class="close_btn"><span>CLOSE</span><img src="../images/common/close_btn.png" alt="�ݱ��ư"/></div>
+        <div class="close_btn"><span>CLOSE</span><img src="../images/common/close_btn.png" alt="닫기버튼"/></div>
         <div class="sbox left_sbox">
           <form name="titl_frm" class="src_frm" method="post" action="/shop/product_list.php">
-            <input type="text" name="titWh" id="prod_src" placeholder="��ǰ�� �˻�" />
-            <a href="../sub/sub01.html"><img class="msc_icon" src="../images/sub/scr_sub.png" alt="�˻��ϱ�" /></a>
+            <input type="text" name="titWh" id="prod_src" placeholder="상품명 검색" />
+            <a href="../sub/sub01.html"><img class="msc_icon" src="../images/sub/scr_sub.png" alt="검색하기" /></a>
           </form>
         </div>
         <ul class="menu">
-          <li><a href="../sub/sub01.html">�ֱٺ���ǰ</a></li>
-          <li><a href="#!">�����ȸ</a></li>
-          <li><a href="#!">�̺�Ʈ</a></li>
-          <li><a href="#!">�ı�</a></li>
-          <li><a href="#!">���� ���̽�</a></li>
-          <li><a href="#!">�ǽð� ���ݺ�</a></li>
-          <li><a href="#!">��������</a></li>
-          <li><a href="#!">ȸ���Խ���</a></li>
+          <li><a href="../sub/sub01.html">최근본상품</a></li>
+          <li><a href="#!">배송조회</a></li>
+          <li><a href="#!">이벤트</a></li>
+          <li><a href="#!">후기</a></li>
+          <li><a href="#!">셀럽 초이스</a></li>
+          <li><a href="#!">실시간 가격비교</a></li>
+          <li><a href="#!">공지사항</a></li>
+          <li><a href="#!">회원게시판</a></li>
         </ul>
         <ul class="log_wrap">
-          <li><a href="#!">�α���</a></li>
-          <li><a href="#!">ȸ������</a></li>
-          <li><a href="#!">��ٱ���</a></li>
+          <li><a href="#!">로그인</a></li>
+          <li><a href="#!">회원가입</a></li>
+          <li><a href="#!">장바구니</a></li>
         </ul>
       </div>
       <div class="blck_bg"></div>
     </div>
   </div>
-  <!-- �޴� �� -->
+  <!-- 메뉴 끝 -->
 </div>
-<!-- ��� �� -->
+<!-- 헤더 끝 -->
 <div class="sub_con">
-  <!-- ��� �˻��κ� -->
-  <!-- <div class="test_src center_box"> <img src="../images/sub/test.png" alt="�ӽ�"/> </div>-->
-  <!-- ��� �˻��κ� �� -->
+  <!-- 상단 검색부분 -->
+  <!-- <div class="test_src center_box"> <img src="../images/sub/test.png" alt="임시"/> </div>-->
+  <!-- 상단 검색부분 끝 -->
   <div class="srced_wrap">
     <div class="srced">
       <div class="srced_title">
-        <p>�˻��з�</p>
+        <p>검색분류</p>
       </div>
       <ul class="srced_list">
-        <li>�÷�, ����Ŀ��</li>
-        <li>��ü</li>
+        <li>플랫, 스니커즈</li>
+        <li>전체</li>
         <li>220mm ~ 225mm</li>
         <li>220mm ~ 225mm</li>
       </ul>
       <span class="ssre"><span class="down_btn"></span></span> </div>
   </div>
 
-  <!-- ���õ� �˻� �׸� -->
+  <!-- 선택된 검색 항목 -->
   <div class="more_view_wrap">
     <ul class="more_view">
-      <li>�÷�, ����Ŀ��</li>
-      <li>��ü</li>
+      <li>플랫, 스니커즈</li>
+      <li>전체</li>
       <li>220mm ~ 225mm</li>
       <li>220mm ~ 225mm</li>
-      <li><a href="../detail_src/sub01.html">+ ��ǰ �� �˻�</a></li>
+      <li><a href="../detail_src/sub01.html">+ 상품 상세 검색</a></li>
     </ul>
   </div>
-  <!-- ���õ� �˻� �׸� ��-->
+  <!-- 선택된 검색 항목 끝-->
 
   <div class="center_box">
-    <!-- ���޴� -->
+    <!-- 퀵메뉴 -->
     <div class="quick_wrap">
       <div class="the_right">
         <div class="sub_right">
@@ -93,19 +98,19 @@
         </div>
       </div>
     </div>
-    <!-- ���޴� �� -->
+    <!-- 퀵메뉴 끝 -->
     <ul class="aligns">
-      <li><a href="#!">�������ݼ�</a></li>
-      <li><a href="#!">�������ݼ�</a></li>
-      <li><a href="#!">��ǰ����</a></li>
-      <li><a href="#!">�ֽŵ�ϼ�</a></li>
+      <li><a href="#!">높은가격순</a></li>
+      <li><a href="#!">낮은가격순</a></li>
+      <li><a href="#!">제품명순</a></li>
+      <li><a href="#!">최신등록순</a></li>
     </ul>
     <ul class="product_list">
       <li><a href="sub_view.html"><img src="../images/sub/prod01.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">�÷�</p>
-          <p class="prod_name">�ּҹ� �Ź� (02/23 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\29,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">플랫</p>
+          <p class="prod_name">최소민 신발 (02/23 신상)</p>
+          <p class="price_wrap"><span class="price">\29,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color01.png" alt=""/></li>
@@ -115,9 +120,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod02.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">����Ŀ��</p>
-          <p class="prod_name">�Ŵ��� �Ź� (12/05 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\34,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">스니커즈</p>
+          <p class="prod_name">신다현 신발 (12/05 신상)</p>
+          <p class="price_wrap"><span class="price">\34,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color03.png" alt=""/></li>
@@ -127,9 +132,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod03.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">����Ŀ��</p>
-          <p class="prod_name">�ż��� �Ź� (11/17 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\35,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">스니커즈</p>
+          <p class="prod_name">신세정 신발 (11/17 신상)</p>
+          <p class="price_wrap"><span class="price">\35,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color01.png" alt=""/></li>
@@ -138,9 +143,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod04.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">�÷�</p>
-          <p class="prod_name">�ż��� �Ź� (11/17 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\21,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">플랫</p>
+          <p class="prod_name">신세정 신발 (11/17 신상)</p>
+          <p class="price_wrap"><span class="price">\21,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color04.png" alt=""/></li>
@@ -152,9 +157,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod01.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">�÷�</p>
-          <p class="prod_name">�ּҹ� �Ź� (02/23 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\29,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">플랫</p>
+          <p class="prod_name">최소민 신발 (02/23 신상)</p>
+          <p class="price_wrap"><span class="price">\29,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color01.png" alt=""/></li>
@@ -164,9 +169,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod02.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">����Ŀ��</p>
-          <p class="prod_name">�Ŵ��� �Ź� (12/05 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\34,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">스니커즈</p>
+          <p class="prod_name">신다현 신발 (12/05 신상)</p>
+          <p class="price_wrap"><span class="price">\34,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color03.png" alt=""/></li>
@@ -176,9 +181,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod03.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">����Ŀ��</p>
-          <p class="prod_name">�ż��� �Ź� (11/17 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\35,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">스니커즈</p>
+          <p class="prod_name">신세정 신발 (11/17 신상)</p>
+          <p class="price_wrap"><span class="price">\35,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color01.png" alt=""/></li>
@@ -187,9 +192,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod04.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">�÷�</p>
-          <p class="prod_name">�ż��� �Ź� (11/17 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\21,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">플랫</p>
+          <p class="prod_name">신세정 신발 (11/17 신상)</p>
+          <p class="price_wrap"><span class="price">\21,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color04.png" alt=""/></li>
@@ -201,9 +206,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod01.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">�÷�</p>
-          <p class="prod_name">�ּҹ� �Ź� (02/23 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\29,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">플랫</p>
+          <p class="prod_name">최소민 신발 (02/23 신상)</p>
+          <p class="price_wrap"><span class="price">\29,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color01.png" alt=""/></li>
@@ -213,9 +218,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod02.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">����Ŀ��</p>
-          <p class="prod_name">�Ŵ��� �Ź� (12/05 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\34,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">스니커즈</p>
+          <p class="prod_name">신다현 신발 (12/05 신상)</p>
+          <p class="price_wrap"><span class="price">\34,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color03.png" alt=""/></li>
@@ -225,9 +230,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod03.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">����Ŀ��</p>
-          <p class="prod_name">�ż��� �Ź� (11/17 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\35,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">스니커즈</p>
+          <p class="prod_name">신세정 신발 (11/17 신상)</p>
+          <p class="price_wrap"><span class="price">\35,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color01.png" alt=""/></li>
@@ -236,9 +241,9 @@
       </li>
       <li><a href="sub_view.html"><img src="../images/sub/prod04.png" alt=""/></a>
         <div class="prod_txt">
-          <p class="prod_val">�÷�</p>
-          <p class="prod_name">�ż��� �Ź� (11/17 �Ż�)</p>
-          <p class="price_wrap"><span class="price">\21,000</span><span class="s_height">������ 2cm</span></p>
+          <p class="prod_val">플랫</p>
+          <p class="prod_name">신세정 신발 (11/17 신상)</p>
+          <p class="price_wrap"><span class="price">\21,000</span><span class="s_height">굽높이 2cm</span></p>
           <div class="favor fav_gray"></div>
           <ul class="color_dot">
             <li><img src="../images/sub/s_color04.png" alt=""/></li>
@@ -249,19 +254,19 @@
         </div>
       </li>
     </ul>
-    <!-- ����Ʈ ��ư -->
-    <div class="numbers_btns"> <span><a href="#!"><img src="../images/sub/first.png" alt="�Ǿ�"/></a></span> <span><a href="#!"><img src="../images/sub/prev.png" alt="����"/></a></span> <span><a class="current_page" href="#!">1</a></span> <span><a href="#!">2</a></span> <span><a href="#!"><img src="../images/sub/next.png" alt="����"/></a></span> <span><a href="#!"><img src="../images/sub/end.png" alt="������"/></a></span> </div>
-    <!-- ����Ʈ ��ư �� -->
+    <!-- 리스트 버튼 -->
+    <div class="numbers_btns"> <span><a href="#!"><img src="../images/sub/first.png" alt="맨앞"/></a></span> <span><a href="#!"><img src="../images/sub/prev.png" alt="이전"/></a></span> <span><a class="current_page" href="#!">1</a></span> <span><a href="#!">2</a></span> <span><a href="#!"><img src="../images/sub/next.png" alt="다음"/></a></span> <span><a href="#!"><img src="../images/sub/end.png" alt="마지막"/></a></span> </div>
+    <!-- 리스트 버튼 끝 -->
   </div>
 </div>
 <!-- <? include "../inc/footer.html"; ?> -->
-<!-- Ǫ�� -->
+<!-- 푸터 -->
 <div class="footer_wrap">
-  <div class="footer center_box"><span>��ȣ : ���̺� </span><span>��ǥ�� : ������</span><span>�ּ� : �λ걤���� ���� ��ҷ� 14���� 23, 7�� 705ȣ(�뿬��)</span> <span>����ڹ�ȣ : 617-35-94934</span><span>����Ǹž��Ű���ȣ : �� 2015-�λ곲��-0151 ȣ</span> <span>TEL : 055-296-5640</span><span>E-MAIL : alivejkj@naver.com</span><span>������������å����: ������(inu4j.khw@gmail.com)</span>
-    <p>Copyright �� 2017 IVE. All Rights Reserved</p>
+  <div class="footer center_box"><span>상호 : 아이브 </span><span>대표자 : 전국진</span><span>주소 : 부산광역시 남구 용소로 14번길 23, 7층 705호(대연동)</span> <span>사업자번호 : 617-35-94934</span><span>통신판매업신고번호 : 제 2015-부산남구-0151 호</span> <span>TEL : 055-296-5640</span><span>E-MAIL : alivejkj@naver.com</span><span>개인정보관리책임자: 김현우(inu4j.khw@gmail.com)</span>
+    <p>Copyright ⓒ 2017 IVE. All Rights Reserved</p>
   </div>
 </div>
-<!-- Ǫ�� �� -->
+<!-- 푸터 끝 -->
 <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="../js/layout.js"></script>
 </body>
